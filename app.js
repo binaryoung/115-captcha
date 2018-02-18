@@ -4,7 +4,7 @@ const { json, send, createError } = require('micro')
 const moment = require('moment')
 const nunjucks = require('nunjucks')
 
-let data = {
+global.data = {
   captcha: 'NULL',
   time: 'NULL',
 }
