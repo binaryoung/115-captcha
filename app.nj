@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>115 验证码</title>
+    <link href="https://cdn.bootcss.com/bulma/0.6.2/css/bulma.min.css" rel="stylesheet">
+    <link href="https://fonts.lug.ustc.edu.cn/css?family=Raleway:100,600" rel="stylesheet">
+    <style>
+        .hero.is-large .hero-body {
+            padding-top: 7rem;
+        }
+        .title {
+            font-size: 15rem;
+            font-weight: 100;
+        }
+        .subtitle {
+            margin-top: 2rem!important;
+        }
+    </style>
+
+</head>
+
+<body>
+<section class="hero is-info is-large">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+        <h1 class="title">{{ captcha }}</h1>
+        <h2 class="subtitle">验证码接收于：{{ time }}</h2>
+    </div>
+  </div>
+</section>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "captcha",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "young",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^9.1.0",
+    "moment": "^2.20.1",
+    "nunjucks": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "micro-dev -p 80",
+    "start": "micro -p 80"
+  },
+  "devDependencies": {
+    "micro-dev": "^2.2.0",
+    "test-listen": "^1.1.0"
+  }
+}
